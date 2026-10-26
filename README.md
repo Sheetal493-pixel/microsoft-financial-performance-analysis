@@ -1,78 +1,73 @@
 # Microsoft Financial Performance Analysis | FY2021–FY2025
 
-A Power BI dashboard evaluating whether Microsoft's strategic investments translated into sustainable shareholder value through growth, profitability, cash generation, and financial strength.
+A Power BI dashboard analyzing Microsoft's financial performance over five fiscal years to assess whether strategic investments translated into sustainable shareholder value.
 
 ## Project Overview
 
-This project analyzes Microsoft's financial performance across five fiscal years (FY2021–FY2025) using Power BI and Excel. It examines the relationship between revenue growth, operating performance, cash flow generation, and shareholder returns to assess the sustainability of value creation.
+This project examines Microsoft's financial performance across FY2021–FY2025, connecting revenue growth, segment performance, profitability, cash generation, and financial strength. The report contains five dashboard pages and uses an interactive year slicer to explore performance over time.
 
 ## Dashboard Preview
 
 ### 1. Value Creation Overview
-An overview of Microsoft's financial performance, tracking revenue, net income, free cash flow (FCF), and return on equity (ROE).
 
-![Value Creation Overview](images/value-creation-overview.png)
+Tracks revenue, net income, free cash flow (FCF), and return on equity (ROE) to provide an overview of shareholder value creation.
+
+![Value Creation Overview](./value-creation-overview.png)
 
 ### 2. Growth Engine
-Analyzes revenue trends, segment contributions, revenue mix, and growth rates across Intelligent Cloud, Productivity and Business Processes, and More Personal Computing.
 
-![Growth Engine](images/growth-engine.png)
+Analyzes revenue trends, segment revenue mix, growth rates, and each business segment's contribution to growth.
+
+![Growth Engine](./growth-engine.png)
 
 ### 3. Value Conversion Engine
-Examines gross and operating margins, cost trends, operating income, and expense composition to understand how revenue growth translates into profitability.
 
-![Value Conversion Engine](images/value-conversion-engine.png)
+Evaluates gross profit, gross and operating margins, operating income, revenue costs, and operating expense composition.
 
-### 4. Cash Realization Engine
-Evaluates operating cash flow, free cash flow, FCF margin, capital expenditure, and the relationship between earnings and cash generation.
+![Value Conversion Engine](./value-conversion-engine.png)
 
-![Cash Realization Engine](images/cash-realisation-engine.png)
+### 4. Cash Realisation Engine
+
+Examines operating cash flow, free cash flow, FCF margin, capital expenditure, and the relationship between net income and operating cash flow.
+
+![Cash Realisation Engine](./cash-realisation-engine.png)
 
 ### 5. Financial Strength Engine
-Assesses total assets, liabilities, shareholders' equity, debt-to-equity, and ROE to evaluate Microsoft's financial position and capital efficiency.
 
-![Financial Strength Engine](images/financial-strength.png)
+Reviews assets, liabilities, shareholders' equity, debt-to-equity, and ROE to assess Microsoft's financial position and capital efficiency.
 
-## Key Areas of Analysis
+![Financial Strength Engine](./financial-strength.png)
 
-- **Growth:** Revenue trends and segment-level performance.
-- **Profitability:** Gross profit, operating income, margins, and expenses.
+## Key Analytical Areas
+
+- **Growth:** Revenue trends and business-segment contributions.
+- **Profitability:** Gross profit, operating income, margins, and operating expenses.
 - **Cash Generation:** Operating cash flow, free cash flow, and capital expenditure.
-- **Shareholder Value:** Net income, return on equity, and financial position.
-- **Financial Sustainability:** The relationship between growth, profitability, cash generation, and leverage.
+- **Shareholder Returns:** Net income and return on equity.
+- **Financial Strength:** Asset and liability trends, shareholders' equity, and leverage.
 
-## Tools & Technologies
+## Tools Used
 
-- **Power BI:** Interactive dashboards, data visualization, and financial KPI analysis.
-- **Microsoft Excel:** Financial data organization and preparation.
-- **DAX:** Measures and calculations for financial performance analysis.
+- **Microsoft Power BI:** Dashboard development, data visualization, and interactive reporting.
+- **Microsoft Excel:** Financial dataset and supporting data preparation.
+- **DAX:** Calculated measures and financial KPIs.
 
-## Repository Structure
+## Repository Contents
 
-```text
-microsoft-financial-performance-dashboard/
-├── Project.pbix
-├── raw-data-microsoft-financial-performance.xlsx
-├── README.md
-└── images/
-    ├── value-creation-overview.png
-    ├── growth-engine.png
-    ├── value-conversion-engine.png
-    ├── cash-realisation-engine.png
-    └── financial-strength.png
-```
+- `microsoft-financial-performance-dashboard.pbix` — interactive Power BI report.
+- `raw-data-microsoft-financial-performance.xlsx` — source dataset used in the analysis.
+- PNG screenshots in the repository root — dashboard previews displayed above.
 
-## How to View the Project
+## How to View
 
-1. Download `Project.pbix` from this repository.
-2. Open it using Microsoft Power BI Desktop.
-3. Explore the report pages and use the year slicer to examine financial performance across the available fiscal years.
-4. Refer to the accompanying Excel workbook for the underlying data.
+1. Download the `.pbix` file and open it in Power BI Desktop.
+2. Use the year slicer to explore the report across FY2021–FY2025.
+3. Refer to the Excel workbook for the underlying dataset.
 
 ## Objective
 
-To build a structured financial analysis dashboard that connects business growth with profitability, cash realization, and shareholder value, moving beyond individual financial metrics to evaluate overall performance.
+To evaluate Microsoft's performance through a connected view of growth, profitability, cash realization, shareholder returns, and financial position rather than relying on individual financial metrics in isolation.
 
 ---
 
-*Disclaimer: This project is intended for educational and analytical purposes. The dashboard reflects the data and calculations contained in the accompanying files and is not investment advice.*
+*Disclaimer: This project is for educational and analytical purposes only and is not investment advice.*
